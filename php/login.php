@@ -1,6 +1,6 @@
 <?php
 
-    require "../database/config.php";
+    require "C:\Users\Public\Github\Boom\htdocs\hw2\database\config.php";
 
     session_start();
     
@@ -18,7 +18,7 @@
 
         function alert($msg){
             echo "<script type='text/javascript'> alert('" . $msg . "'); 
-            window.location = '../Registration.html';
+            window.location = 'C:\Users\Public\Github\Boom\htdocs\hw2\Registration.html';
             </script>";
         }
   
