@@ -8,7 +8,7 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: rgb(204, 202, 202);
+  background: rgb(159, 144, 144);
 }
 .container{
   position: absolute;
@@ -17,7 +17,7 @@ body{
   transform: translate(-50%,-50%);
   max-width: 430px;
   width: 100%;
-  background: #fff;
+  background: #744848;
   border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
@@ -48,7 +48,7 @@ body{
    padding: 0 15px;
    font-size: 17px;
    margin-bottom: 1.3rem;
-   border: 1px solid #ddd;
+   border: 1px solid #9e7d7d;
    border-radius: 6px;
    outline: none;
  }
@@ -57,7 +57,7 @@ body{
  }
 .form a{
   font-size: 16px;
-  color: #009579;
+  color: #8b0202;
   text-decoration: none;
 }
 .form a:hover{
@@ -65,7 +65,7 @@ body{
 }
 .form input.button{
   color: #fff;
-  background: #009579;
+  background: #849793;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 1px;
@@ -74,7 +74,7 @@ body{
   transition: 0.4s;
 }
 .form input.button:hover{
-  background: #006653;
+  background: #76958f;
 }
 .signup{
   font-size: 17px;
