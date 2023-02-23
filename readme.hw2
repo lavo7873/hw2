@@ -1,6 +1,6 @@
 >>Personal information<<
-Name: Binh Vu 
-Student ID: 016419208
+Name: Lam Vong
+Student ID: 016520400
 
 >>General info<<
 This project is to fill out a simple registration form (userid and password) and submit the data to the web server.  
@@ -8,11 +8,14 @@ Once the server receives the request, it will insert into the database tables.
 
 
 >>Technologies<<
-Project is created with: DELL XPS 7590 
-Intel(R) Core(TM) i7-9750H CPU and I use Window 11 to write the code.
+Project is created with: MSI Laptop  
+Intel(R) Core(TM) i7, NVIDIA GEFORCE RTX CPU and I use Window 11 to write the code.
 
 
 
 	
 >>Setup<<
-To run this project, open with your google chrome or Microsoft Edge browser on Windows or Mac OS.  
+To run this project, open with your google chrome or Microsoft Edge browser on Windows or Mac OS.
+First, to open the google chrome then we apply the website localhost/phpadmin
+second, to open the website localhost/hw2 and click registration
+final, we create the account and they sync to the localhost.  
