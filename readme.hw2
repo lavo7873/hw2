@@ -1,0 +1,18 @@
+>>Personal information<<
+Name: Binh Vu 
+Student ID: 016419208
+
+>>General info<<
+This project is to fill out a simple registration form (userid and password) and submit the data to the web server.  
+Once the server receives the request, it will insert into the database tables.
+
+
+>>Technologies<<
+Project is created with: DELL XPS 7590 
+Intel(R) Core(TM) i7-9750H CPU and I use Window 11 to write the code.
+
+
+
+	
+>>Setup<<
+To run this project, open with your google chrome or Microsoft Edge browser on Windows or Mac OS.  
