@@ -1,49 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
-</head>
+  </head>
 
-<body>
+  <body>
+    <h1><b> Registration Form</b></h1>
+    <h3>Please enter username and password to complete the process!</h3>
+
     <div class="container">
-        <input type="checkbox" id="check">
-        <div class="login form">
-            <header>Login</header>
-
-            <form action="php/login.php" id="login_form" method="POST">
-                <input type="text" placeholder="Enter your userid" name="userid_login">
-                <input type="password" placeholder="Enter your password" name="password_login">
-                <input type="submit" class="button" value="Login">
-            </form>
-            <div class="signup">
-                <span class="signup">Don't have an account?
-                    <label for="check">Signup</label>
-                </span>
-            </div>
+        <div class="row">
+          <form action="process.php" method="post">
+              <input style="height:30px; width:200px;" type="text" placeholder="Username" name="username" class="form-control" >
+            <br>
+            <br>
+              <input style="height:30px; width:200px;" type="password" placeholder = "Password" name="password" class="form-control" >
+                <br>
+              <button style="font-size:150% "; type="Submit" class="btn btn">Register</button>
+          </form>
         </div>
-        <div class="registration form">
-            <header>Signup</header>
-            <form action="php/registration.php" id="reg_form" method="POST">
-                <input type="text" placeholder="Enter your userid" name="userid_reg">
-                <input type="password" placeholder="Create a password" name="password_reg">
-                <input type="submit" class="button" value="Signup">
-            </form>
-            <div class="signup">
-                <span class="signup">Already have an account?
-                    <label for="check">Login</label>
-                </span>
-            </div>
-        </div>
-    </div>
+      </div>
 
-    <script>
-            
-    </script>
-
-</body>
+  </body>
 
 </html>
